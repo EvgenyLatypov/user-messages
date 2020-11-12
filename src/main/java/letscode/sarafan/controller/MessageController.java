@@ -13,7 +13,6 @@ import java.util.List;
 @RequestMapping("/messages")
 public class MessageController {
 
-    // private int counter = 4;
     private final MessageRepo messageRepo;
 
     @Autowired
